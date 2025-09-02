@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>zeke.fm: august tripped, fall.</title>
+<style>
+  body, html {
+    margin: 0; padding: 0;
+    height: 100%; width: 100%;
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    text-align: center;
+    background: #ff7518; /* pumpkin orange */
+  }
+  .overlay {
+    min-height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  header {
+    margin-bottom: 10px;
+  }
+  h1 {
+    font-size: 1.8rem; margin: 0.3rem 0;
+  }
+  p.sub {
+    font-size: 0.9rem; color: #fff;
+  }
+  .player {
+    margin: 15px auto;
+    width: 95%; max-width: 450px;
+    border-radius: 12px; overflow: hidden;
+    background: rgba(0,0,0,0.3);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+  }
+  iframe {
+    width: 100%; height: 250px; border: none;
+  }
+  footer {
+    margin-top: 30px;
+    font-size: 0.9rem;
+    color: #fff;
+  }
+</style>
+</head>
+<body>
+<div class="overlay">
+  <header>
+    <h1>zeke.fm: august tripped, fall.</h1>
+    <p class="sub">Lemme put you on.</p>
+  </header>
+
+  <!-- Still Feel It - Dominic Fike -->
+  <div class="player">
+    <iframe src="https://www.youtube.com/embed/CtdH0xXMZxk" 
+            title="Still Feel It - Dominic Fike" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+
+  <!-- I Am the Changer - Cotton Jones -->
+  <div class="player">
+    <iframe src="https://www.youtube.com/embed/zl8juTqRdlc" 
+            title="I Am the Changer - Cotton Jones" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+
+  <!-- Pink Skies - Zach Bryan -->
+  <div class="player">
+    <iframe src="https://www.youtube.com/embed/83Y24U_XQoY" 
+            title="Pink Skies - Zach Bryan" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+
+  <!-- Nothing But the Blood (Live) - Saint Cecilia and the Melody Makers -->
+  <div class="player">
+    <iframe src="https://www.youtube.com/embed/mU6TB0t7rWg" 
+            title="Nothing But the Blood (Live) - Saint Cecilia and the Melody Makers" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+
+  <footer>Lemme put you on.</footer>
+</div>
+</body>
+</html>
